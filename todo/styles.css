@@ -1,0 +1,61 @@
+* {
+    font-family: arial, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .widget-wrap {
+    min-width: 600px;
+    padding: 30px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.3);
+  }
+  
+  #todo-wrap input, .todo-item {
+    border: 0;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  #todo-wrap h1 {
+    color: rgb(55, 55, 55);
+    margin: 20px 0;
+  }
+  
+  /* (E) ROW ITEMS */
+  #todo-add, .todo-row {
+    display: flex;
+    align-items: center;
+  }
+  #todo-item, .todo-item {
+    flex-grow: 1;
+    background: rgb(255, 255, 255);
+  }
+  .todo-item.todo-ok { background: #90ffe5; }
+  #todo-save, .todo-del, .todo-done {
+    color: #fff;
+    cursor: pointer;
+  }
+  .todo-del { background: #ed3636; }
+  #todo-save, .todo-done { background: #2781cf; }
+  
+  body {
+    display: flex;
+    padding-top: 5%;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: azure;
+  }
+
+  #code-boxx {
+    font-weight: 600;
+    margin-top: 30px;
+    color: #fff;
+  }
+  #code-boxx a {
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+    background: #b90a0a;
+    color: #fff;
+  }
